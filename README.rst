@@ -1,5 +1,5 @@
-spotify-ripper |Version|
-========================
+spotify-ripper |Version| (**now obsolete due to Sunset of libspotify on May 16, 2022**)
+=======================================================================================
 A fork of
 ``spotify-ripper`` (https://github.com/wolfmanx/spotify-ripper) that still uses ``spotipy`` (https://github.com/plamere/spotipy) for a small set of functions, but progressively moves to Spotify's WebAPI for most functions (e.g. playlist functions), including the automated handling of tokens given the fact that most WebAPI functions now require an authorization token. 
 This fork also adds a few options (e.g. --update-metadata: update metadata on existing files) and formating capabilities.
